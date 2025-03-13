@@ -1,0 +1,26 @@
+.navbar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "kiri . kanan";
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kiri{
+    grid-area: kiri;
+}
+
+.kanan{
+    grid-area: kanan;
+    margin: 10px;
+    justify-self: end;
+}
+
+.konten{
+    text-align: center;
+}
